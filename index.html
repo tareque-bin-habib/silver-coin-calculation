@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="website-name">Silver Coin Banking</h1>
+    </header>
+    <!-- MAIN START -->
+    <main>
+        <section class="banking">
+            <div id="fixed" class="main-part">
+                <img src="images/jason-dent-3wPJxh-piRw-unsplash.jpg" alt="">
+            </div>
+            <div class="main-part">
+                <div class="income">
+                    <h3 class="income-head">Income</h3>
+                    <span class="labels">
+                        Income :
+                    </span><input id="input-income" class="income-field" type="text">
+                    <h3 class="income-head">Expense</h3>
+                    <span class="food">
+                        Food :
+                    </span><input id="input-food" class="income-field" type="text">
+                    <br>
+                    <span class="rent">
+                        Rent :
+                    </span><input id="input-rent" class="income-field" type="text">
+                    <br>
+                    <span class="clothes">
+                        Clothes :
+                    </span><input id="input-clothes" class="income-field" type="text">
+                    <br>
+                    <button id="calculate-button" class="calculate">Calculate</button>
+                    <h3 class="income-head">Total Expenses : <span id="total-expence">00</span></h3>
+                    <h3 class="income-head">Balance : <span id="balance">00</span></h3>
+                </div>
+                <div class="savings">
+                    <span class="save">
+                        Save :
+                    </span><input id="saving-input" class="savings-field" type="text">
+                    <span>
+                        %
+                    </span><button id="save-button" class="save-button">Save</button>
+                    <h3 class="income-head">Saving Amount : <span id="saving-amount">00</span></h3>
+                    <h3 class="income-head">Remaining Balance :<span id="remaining-balance"> 00</span></h3>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <script src="js/common.js"></script>
+    <script src="js/expense.js"></script>
+</body>
+
+</html>
