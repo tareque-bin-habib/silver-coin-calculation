@@ -19,7 +19,6 @@ document.getElementById('save-button').addEventListener('click', function () {
     const savingAmount = incomeField * savingPercentage;
     setValue('saving-amount', savingAmount);
     // Remaining Balance
-    const oldRemainingBalance = GetAmount('remaining-balance')
     const oldSavingAmount = GetAmount('saving-amount');
     const newBalance = GetAmount('balance');
     const remaining = newBalance - oldSavingAmount;
